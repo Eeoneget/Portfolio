@@ -14,15 +14,9 @@ import Test from "./Components/Test";
 import { motion, useTransform, useScroll, useMotionValue } from "framer-motion";
 import { useEffect, useState } from "react";
 import Button from "./Components/Button";
-import nodeicon from "./assets/nodejs-logo-FBE122E377-seeklogo.com.png";
 import expressicon from "./assets/expressjs_logo_icon_169185.png";
-import mongodbicon from "./assets/mongodb-logo-D13D67C930-seeklogo.com.png";
 import reduxicon from "./assets/Redux.png";
-import muiicon from "./assets/mui.png";
 import Admin from "./assets/Dashboard.png";
-import dockericon from "./assets/97_Docker_logo_logos-512.png";
-import storybookicon from "./assets/storybook-icon.svg";
-import awsicon from "./assets/AWS-Cloud-logo_32.svg";
 
 function App() {
     const [cursorVariant, setCursorVariant] = useState("default");
@@ -39,7 +33,6 @@ function App() {
     const translateX1 = useTransform(scrollYProgress, [0, 1], ["0vh", "-10vh"]);
     const translateX2 = useTransform(scrollYProgress, [0, 1], ["0vh", "10vh"]);
     const translateX3 = useTransform(scrollYProgress, [0, 1], ["0vh", "35vh"]);
-    const translateX4 = useTransform(scrollYProgress, [0, 1], ["0vh", "-14vh"]);
     const translateX5 = useTransform(scrollYProgress, [0, 1], ["0vh", "10vh"]);
     const translateX6 = useTransform(scrollYProgress, [0, 1], ["0vh", "-10vh"]);
 
